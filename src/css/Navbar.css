@@ -1,0 +1,14 @@
+.nav-container{
+  background-color: beige;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anchor-nav{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
