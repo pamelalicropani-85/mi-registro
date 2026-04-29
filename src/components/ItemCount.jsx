@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 const ItemCount =()=>{
  
@@ -13,6 +13,9 @@ const [count, setCount]= useState(1)
         setCount (count - 1)
         }
     }
+    // useEffect(()=>{
+
+    // }, [array de dependencias])
 
     return(
         <div>
